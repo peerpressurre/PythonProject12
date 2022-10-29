@@ -1,19 +1,13 @@
 #feature/lab_ex1
-def con():
+def mop():
     try:
         text = input('enter text->')
-        counter = 0
-        counter2 = 0
-        for i in text:
-            if i.isalpha():
-                counter += 1
-            if i.isnumeric():
-                counter2 += 1
-        print(f'Number of letters: {counter}\nNumber of digits: {counter2} ')
+        symbol = input('enter a symbol to find->')
+
+        print(f'Number of particular symbol in text: {text.count(symbol)}')
     except Exception as ex:
         print(f'Error: {ex}')
-
-con(
+mop()
 
 
 
