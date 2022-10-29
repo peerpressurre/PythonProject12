@@ -1,5 +1,9 @@
-#feature/lab_ex1
-str = str(input('enter string->'))
+#feature/lab_ex1 rstring = str[::-1]
+def rev():
+    try:
+        str = input('enter string->')
 
-rstring = str[::-1]
-print(rstring)
+        print(str[::-1])
+    except Exception as ex:
+        print(f'Error: {ex}')
+print(rev())
