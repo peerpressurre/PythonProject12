@@ -6,4 +6,4 @@ def rev():
         print(str[::-1])
     except Exception as ex:
         print(f'Error: {ex}')
-print(rev())
+print(rev()
