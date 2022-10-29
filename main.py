@@ -7,7 +7,7 @@ def mop():
         print(f'Number of particular symbol in text: {text.count(word)}')
     except Exception as ex:
         print(f'Error: {ex}')
-mop()
+mop(
 
 
 
