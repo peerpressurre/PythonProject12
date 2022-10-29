@@ -2,12 +2,13 @@
 def mop():
     try:
         text = input('enter text->')
-        word = input('enter a word to find->')
+        old = input('enter a word to replace->')
+        new = input('enter replacement word ->')
 
-        print(f'Number of particular symbol in text: {text.count(word)}')
+        print(f'New text: {text.replace(old, new)}')
     except Exception as ex:
         print(f'Error: {ex}')
-mop(
+mop()
 
 
 
